@@ -1,0 +1,6 @@
+dataset:
+  val:
+    - name: ImageToDEM-JK
+      disp_name: JK-test
+      dir: ImageToDEM-JK
+      filenames: data_split/ImageToDEM-JK/JK-test.txt
