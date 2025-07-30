@@ -1,9 +1,9 @@
-# MarigoldRS: Text-Guided Real-time Monocular Depth Estimation for Remote Sensing
+# Marigold-RS: Text-Guided Monocular Depth Estimation for Remote Sensing
 ![](assets/picture1.png)
 ## Introduction
 MarigoldRS is an advanced monocular depth estimation model specifically tailored for remote sensing imagery. Building upon the robust foundation of the original Marigold model, MarigoldRS introduces a key innovation: the integration of textual prompts as an additional input. This allows the model to leverage semantic context to generate more accurate and coherent depth maps, especially in visually ambiguous scenes common in remote sensing.
 
-This model is designed to work with our accompanying benchmark dataset, [RS3DBench](https://huggingface.co/datasets/RS3DBench/RS3DBench).
+This model is designed to work with our accompanying benchmark dataset, [RS3DBench](https://huggingface.co/datasets/RS3DBench/RS3DBench). You can download and process the dataset using the [dataset tool](https://github.com/RS3DBench/RS3DBench) we provide. You are also welcome to visit our [project URL](RS3DBench.github.io).
 
 ## Getting Started
 ### Training
@@ -18,7 +18,7 @@ To resume a previous training run from a checkpoint:
 ```bash
 python train.py --resume_run path/to/your/run/ckpt
 ```
- 
+
 ### Inference
 To run inference on a directory of RGB images and evaluate them against ground truth DEMs, use the `run.py` script.
 
